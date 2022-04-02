@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Python deps
-      run: pip install pillow
+      run: pip install pillow requests
     - name: Run a one-line script
       run: python ./.github/workflows/sync_template.py
     - name: switching from HTTPS to SSH
