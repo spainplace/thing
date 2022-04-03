@@ -16,7 +16,7 @@ if (window.top !== window.self) {
                 Date.now = function() { return new Date().getTime(); }
             }
             const i = document.createElement("img");
-            i.src = "https://github.com/spainplace/thing/raw/main/templateTest.png?" + Date.now();
+            i.src = "https://github.com/spainplace/thing/raw/main/templateTest3.png?" + Date.now();
             i.style = "position: absolute;left: 0;top: 0px;image-rendering: pixelated;width: 2000px;height: 1000px;";
             i.id = "mcss-overlay"
             i.setAttribute("vis",1)
